@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ProductDetails({
+export default function ProductDetail({
   params,
 }: {
   params: { productId: string };
