@@ -1,5 +1,7 @@
-import React from "react";
+export const metadata = {
+  title: "About title",
+};
 
 export default function About() {
-  return <div>About</div>;
+  return <h1>About me</h1>;
 }
