@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="">
       <body>
         <header
           style={{
@@ -26,7 +26,8 @@ export default function RootLayout({
         >
           <p>Header</p>
         </header>
-        {children}
+
+        <div className="p-4">{children}</div>
 
         <footer
           style={{

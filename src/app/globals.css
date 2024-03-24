@@ -5,3 +5,9 @@
 body {
   background-color: #455b55;
 }
+
+a {
+  color: rgb(127, 178, 255);
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
